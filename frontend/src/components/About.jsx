@@ -44,10 +44,10 @@ export default function About() {
           >
             <h2 className="text-4xl font-bold text-gray-800 mb-8">
               Управління фізичної культури і спорту<br />
-              Міністерства освіти і науки України
+              Міністерства Оборони України
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Створено у 2015 році як структурний підрозділ МОН України. Ми координуємо спортивне життя у понад <strong>16 000 шкіл</strong>, 
+              Створено у 2015 році як структурний підрозділ МО України. Ми координуємо спортивне життя у понад <strong>16 000 закладах</strong>, 
               <strong> 700 ПТНЗ</strong> та <strong>500 вищих навчальних закладах</strong>.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
