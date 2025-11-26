@@ -18,7 +18,7 @@ export default function Navbar() {
           </div>
           <div>
             <h1 className="text-2xl font-bold">Управління фізичної культури і спорту</h1>
-            <p className="text-sm opacity-90">Міністерство освіти і науки України</p>
+            <p className="text-sm opacity-90">Міністерство Оборони України</p>
           </div>
         </div>
 

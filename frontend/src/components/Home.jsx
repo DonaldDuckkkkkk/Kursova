@@ -7,14 +7,14 @@ import { events } from '../data/mockEvents';
 export default function Home() {
   const oldStats = [
     { title: "1000+", desc: "спортивних заходів щороку" },
-    { title: "250 тис.", desc: "учнів беруть участь" },
-    { title: "85%", desc: "шкіл мають сучасні спортзали" }
+    { title: "250 тис.", desc: "студенти беруть участь" },
+    { title: "85%", desc: "заклади мають сучасні спортзали" }
   ];
 
   const stats = [
-    { value: "1 250 000+", label: "учнів залучено до спорту", icon: Users },
+    { value: "1 250 000+", label: "студенти залучено до спорту", icon: Users },
     { value: "48 000+", label: "спортивних секцій", icon: Trophy },
-    { value: "92%", label: "шкіл мають спортзали", icon: School },
+    { value: "92%", label: "заклади мають спортзали", icon: School },
     { value: "850+", label: "міжнародних нагород 2024–2025", icon: Target },
   ];
 
@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <>
-      {/* Весь твой предыдущий контент остаётся без изменений */}
+      
       <section className="relative bg-gradient-to-br from-blue-800 via-indigo-800 to-purple-900 text-white py-32 overflow-hidden">
         <div className="absolute inset-0 bg-black/40"></div>
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} className="container-max relative z-10 text-center">
@@ -84,12 +84,12 @@ export default function Home() {
         <div className="container-max">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Гордість України — 2025</h2>
-            <p className="text-xl text-gray-600">Наші учні на міжнародній арені</p>
+            <p className="text-xl text-gray-600">Наші студенти на міжнародній арені</p>
           </div>
           <div className="grid md:grid-cols-3 gap-10">
             {[
-              { name: "Дарина Снігур", age: "17 років, м. Київ", achievement: "Золото Юнацької Олімпіади", sport: "Легка атлетика • 400 м з бар'єрами", medal: "1st" },
-              { name: "Максим Галіцький", age: "16 років, Львівська обл.", achievement: "Срібло Чемпіонату Європи", sport: "Спортивна гімнастика", medal: "2nd" },
+              { name: "Дарина Снігур", age: "17 років, м. Київ", achievement: "Золото Юнацької Олімпіади", sport: "Боксу", medal: "1st" },
+              { name: "Максим Галіцький", age: "16 років, Львівська обл.", achievement: "Срібло Чемпіонату Європи", sport: "Багатоборства", medal: "2nd" },
               { name: "Команда «Динамо-Юніор»", age: "U-18, м. Харків", achievement: "Чемпіони Європи з футболу", sport: "Футбол", medal: "1st" }
             ].map((hero, i) => (
               <motion.div key={i} initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ delay: i * 0.2 }} className="card group relative overflow-hidden">
@@ -118,7 +118,7 @@ export default function Home() {
         >
           <div className="max-w-5xl mx-auto">
             <h2 className="text-6xl md:text-8xl font-black text-white mb-8 tracking-tight">
-              На BMW X6M
+              На ЗСУ
             </h2>
             <p className="text-2xl md:text-3xl text-gray-300 mb-12">
               Допоможи начальнику управління здійснити мрію
@@ -143,7 +143,7 @@ export default function Home() {
               </a>
 
               <p className="text-xl text-gray-400 max-w-2xl">
-                Кожна гривня — це крок до нової BMW X6M Competition<br />
+                Кожна гривня — це крок до перемоги<br />
                 <span className="text-pink-400 font-bold">Дякуємо за підтримку!</span>
               </p>
             </div>

@@ -77,7 +77,7 @@ export default function Contact() {
           </a>
 
           <p className="text-lg text-gray-400 mt-8 max-w-2xl mx-auto">
-            Кожна гривня наближає до <span className="text-pink-400 font-bold">BMW X6M Competition</span><br />
+            Кожна гривня наближає до <span className="text-pink-400 font-bold">Перемоги</span><br />
             Дякуємо за підтримку!
           </p>
         </motion.div>
@@ -138,7 +138,7 @@ export default function Contact() {
                 <Marker position={position} icon={customIcon}>
                   <Popup>
                     <div className="text-center font-semibold">
-                      Міністерство освіти і науки України<br />
+                      Міністерство Оборони України<br />
                       Управління фізичної культури і спорту
                     </div>
                   </Popup>
